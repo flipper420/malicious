@@ -9,9 +9,9 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 
 
-namespace PELoader
+namespace PEL
 {
-    public class peloader
+    public class peload
     {
 		public static void Main()
         {
