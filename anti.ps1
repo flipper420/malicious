@@ -597,4 +597,4 @@ namespace PEL
 "@
 
 Add-Type -TypeDefinition $code -Language CSharp	
-iex "[PELoader.peloader]::Main()"
+iex "[PEL.peload]::Main()"
